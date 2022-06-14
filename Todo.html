@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>my to do app</title>
+  </head>
+  <body>
+    <script>
+      let a = "james";
+      // function hello(name) {
+      //   let a = "my name is " + name;
+      //   let element = document.createElement("div");
+      //   element.innerText = a;
+      //   document.body.appendChild(element);
+      // }
+      // hello("Mercy");
+      // hello("John");
+      // hello("Brain");
+      // hello("Ouma");
+
+      function hello(value) {
+        let num = prompt("your number is"); // "5"
+
+        if (num == 100) {
+          num = prompt("you have won you entered" + num);
+        } else if (num < 100) {
+          num = prompt("please try it again you entered" + num);
+        } else if (num > 100) {
+          num = prompt("syntax erro");
+        }
+      }
+      hello();
+    </script>
+  </body>
+</html>
